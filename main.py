@@ -48,7 +48,7 @@ def get_assistant_response(prompt):
     else:
         return "No response from the assistant."
 
-st.title("HYS Enterprise - PM Training Simulator")
+st.title("HYS Enterprise - PM Training Simulator", anchor=False)
 
 # Initialize chat history
 if "messages" not in st.session_state:
